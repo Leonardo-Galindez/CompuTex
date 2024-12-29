@@ -3,7 +3,7 @@
 .container-1 {
   display: flex;
   gap: 40px;
-  width: 60%;
+  width: 55%;
   justify-content: center; /* Centra horizontalmente */
   align-items: center; /* Centra verticalmente */
 }
@@ -19,7 +19,7 @@
 
 .search-bar input {
   width: 100%;
-  padding: 10px;
+  padding: 14px;
   border-radius: 7px;
   border-color: var(--white);
   background-color: var(--primary);

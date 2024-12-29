@@ -13,6 +13,7 @@
   background-color: var(--primary);
   border: none;
   color: var(--white);
+  font-size:larger;
 }
 
 #btn-account:hover {
@@ -29,6 +30,7 @@
   border: none;
   padding: 7px;
   color: var(--white);
+  font-size:larger;
 }
 
 #btn-cart:hover {
@@ -43,4 +45,9 @@
 
 #btn-cart i {
   color: var(--red);
+}
+
+#btn-account a{
+  text-decoration: none;
+  color: var(--white);
 }
