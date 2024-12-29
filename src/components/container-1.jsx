@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/container-1.css';
 
 function Container1({logo,searchBar}) {
   return (

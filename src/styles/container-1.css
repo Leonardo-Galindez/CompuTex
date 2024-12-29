@@ -1,0 +1,36 @@
+@import url('./pallette.css');
+
+.container-1 {
+  display: flex;
+  gap: 40px;
+  width: 60%;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+.logo img {
+  width: 200px;
+}
+
+.search-bar {
+  position: relative;
+  width: 60%;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 7px;
+  border-color: var(--white);
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.search-bar i {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  color: var(--red);;
+  pointer-events: none; /* Para evitar que interfiera con los clics */
+}

@@ -1,0 +1,47 @@
+.container-2 {
+  display: flex;
+  justify-content: left; /* Centra horizontalmente */
+  align-items: center;
+  gap: 10px;
+}
+
+#btn-account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: var(--primary);
+  border: none;
+  color: var(--white);
+}
+
+#btn-account:hover {
+  border-radius: 5px;
+  background-color: var(--gray-light);
+  padding: 5px;
+  transition: 0.2s;
+}
+
+#btn-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+  border: none;
+  color: var(--white);
+}
+
+#btn-cart:hover {
+  border-radius: 5px;
+  background-color: var(--gray-light);
+  padding: 5px;
+  transition: 0.2s;
+}
+
+#btn-account i {
+  color: var(--red);
+}
+
+#btn-cart i {
+  color: var(--red);
+}

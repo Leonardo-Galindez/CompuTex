@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
 function BtnCart() {
   return (
     <div className="btn-cart">
-      <button>Carrito</button>
+      <button id="btn-cart">
+        <i className="fas fa-shopping-cart"></i>
+      </button>
     </div>
   );
 }
