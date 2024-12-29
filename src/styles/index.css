@@ -1,4 +1,10 @@
-body{
-    margin:0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Asegura que los hijos estén en columna */
+  width: 100%; /* Ocupa todo el ancho */
 }
